@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "release": "datasets-2026.10.23",
+  "publication_date": "2026-10-23",
+  "packs": [
+    {
+      "id": "ancient-origins-grch37-2026.09.05",
+      "title": "ZeroThink ancient aggregate reference",
+      "license": "CC0-1.0 source data",
+      "contents": "6 groups; 30,826 common loci; 184,956 aggregate frequency rows",
+      "card": "cards/ancient-origins-grch37-2026.09.05.md",
+      "file_count": 8,
+      "uncompressed_bytes": 35823580,
+      "asset": {
+        "name": "ancient-origins-grch37-2026.09.05.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/ancient-origins-grch37-2026.09.05.zip",
+        "bytes": 5349874,
+        "sha256": "d869d78acfccb5181d9a75879bd8b70f7f9c38009216a6dc42d495574201c4b7"
+      }
+    },
+    {
+      "id": "composition-grch37-2026.09.05",
+      "title": "ZeroThink GRCh37 composition assets",
+      "license": "CC-BY-4.0 data; GPL-3.0-or-later worker; MIT marker-source attribution",
+      "contents": "345,907 markers; 21 reference groups; 16 projection dimensions",
+      "card": "cards/composition-grch37-2026.09.05.md",
+      "file_count": 13,
+      "uncompressed_bytes": 114321359,
+      "asset": {
+        "name": "composition-grch37-2026.09.05.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/composition-grch37-2026.09.05.zip",
+        "bytes": 98898889,
+        "sha256": "a72716dd83b7f8a100f4ea15245e5bdcf0b89b5ce73fa4d5f8d689a2563403de"
+      }
+    },
+    {
+      "id": "grafanc-reference-aggregate-b5e51c78",
+      "title": "Pinned GrafAnc aggregate reference",
+      "license": "MIT upstream asset; notices retained",
+      "contents": "282,424 variant rows; 26 population-frequency columns; upstream sentinels preserved",
+      "card": "cards/grafanc-reference-aggregate-b5e51c78.md",
+      "file_count": 7,
+      "uncompressed_bytes": 28226262,
+      "asset": {
+        "name": "grafanc-reference-aggregate-b5e51c78.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/grafanc-reference-aggregate-b5e51c78.zip",
+        "bytes": 28223109,
+        "sha256": "c1c6094e041b4ed97d136f93b86625265543f95e3a1308c4656fac1a82f4447c"
+      }
+    },
+    {
+      "id": "openzero-original-research-v1",
+      "title": "OpenZero original research curriculum",
+      "license": "CC-BY-4.0",
+      "contents": "413 SFT; 120 preference; 39 frozen evaluation records",
+      "card": "cards/openzero-original-research-v1.md",
+      "file_count": 11,
+      "uncompressed_bytes": 975683,
+      "asset": {
+        "name": "openzero-original-research-v1.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/openzero-original-research-v1.zip",
+        "bytes": 149720,
+        "sha256": "cf0cc4ba220bae3923a13792368d368861089b3bcb0be3001f5ae78b7fdd2dd2"
+      }
+    },
+    {
+      "id": "openzero-reviewed-licensed-mixtures-20260726",
+      "title": "OpenZero reviewed licensed mixtures",
+      "license": "Composite: original CC-BY-4.0; upstream terms retained per record",
+      "contents": "1,870 and 1,921 overlapping variant records",
+      "card": "cards/openzero-reviewed-licensed-mixtures-20260726.md",
+      "file_count": 313,
+      "uncompressed_bytes": 14018839,
+      "asset": {
+        "name": "openzero-reviewed-licensed-mixtures-20260726.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/openzero-reviewed-licensed-mixtures-20260726.zip",
+        "bytes": 3688863,
+        "sha256": "9c983a824e5b9590d95efe3768bf6642ce7273464c28b1a7640a32a00c22c241"
+      }
+    },
+    {
+      "id": "research-benchmark-metrics-20260709",
+      "title": "Historical application benchmark metrics",
+      "license": "CC-BY-4.0",
+      "contents": "213 diagnostic measurement rows; four CSV files",
+      "card": "cards/research-benchmark-metrics-20260709.md",
+      "file_count": 8,
+      "uncompressed_bytes": 38104,
+      "asset": {
+        "name": "research-benchmark-metrics-20260709.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/research-benchmark-metrics-20260709.zip",
+        "bytes": 12543,
+        "sha256": "1fd4deffdf4bdc179bca905b3ff0b3fcd4a59a7263a16bf438339caf91562d4b"
+      }
+    },
+    {
+      "id": "synthetic-dna-software-fixtures-2026.09.05",
+      "title": "Synthetic DNA software fixtures",
+      "license": "CC-BY-4.0 compilation; MIT/CC0 source notices retained",
+      "contents": "4 constructed CSV/TXT fixtures; 4,400 / 43,598 / 282,049 / 297,707 rows",
+      "card": "cards/synthetic-dna-software-fixtures-2026.09.05.md",
+      "file_count": 12,
+      "uncompressed_bytes": 18410000,
+      "asset": {
+        "name": "synthetic-dna-software-fixtures-2026.09.05.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/synthetic-dna-software-fixtures-2026.09.05.zip",
+        "bytes": 5977015,
+        "sha256": "8cd50bcf5db01113e2437a22ce936393ce512aabe6d41ed1a662c0620ad97ae0"
+      }
+    },
+    {
+      "id": "zero-original-agent-curriculum-v1",
+      "title": "ZERO original agent curriculum",
+      "license": "CC-BY-4.0",
+      "contents": "165 original records across two curricula",
+      "card": "cards/zero-original-agent-curriculum-v1.md",
+      "file_count": 9,
+      "uncompressed_bytes": 165584,
+      "asset": {
+        "name": "zero-original-agent-curriculum-v1.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-agent-curriculum-v1.zip",
+        "bytes": 30405,
+        "sha256": "8055011b4aa33472e1b93f33024f7669482e37ed6c2cf69fe0508ba751b7a297"
+      }
+    },
+    {
+      "id": "zero-original-pilot-20261009",
+      "title": "ZERO original pilot dataset",
+      "license": "CC-BY-4.0 data; MIT generator/validator",
+      "contents": "100 records; 94 groups; 60/20/20 split",
+      "card": "cards/zero-original-pilot-20261009.md",
+      "file_count": 18,
+      "uncompressed_bytes": 536235,
+      "asset": {
+        "name": "zero-original-pilot-20261009.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-pilot-20261009.zip",
+        "bytes": 238914,
+        "sha256": "ab7de422610a841228565529226306273da6fa5e46a974bc18b19aeda94e5c2f"
+      }
+    }
+  ],
+  "privacy_boundary": "Explicit reviewed assets only; private DNA, clients/accounts/keys, individual reference matrices and installed environments excluded.",
+  "evaluation_overlap": "AI packs overlap: 4,680 content/evaluation-support occurrences correspond to 2,577 unique normalized records. This includes 52 evaluation-support payloads; 4,628 primary dataset record occurrences remain before deduplication. Do not concatenate or treat mixtures as independent validation."
+}
