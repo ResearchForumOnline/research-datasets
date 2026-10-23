@@ -27,17 +27,31 @@ genome build only; unavailable builds or missing verification stay unavailable.
 ## Publication boundary
 
 Each new release is assembled from explicit reviewed file lists. It excludes
-personal/client DNA, individual reference-genotype matrices, target-overlap
+private personal/client DNA, target-overlap
 caches, private reports, customer/account databases, credentials, private
 correspondence, provider-restricted research and installed virtual environments.
 The original local collections are preserved.
 
-The approximately 6 GB AADR copy is an individual-level third-party reference,
-not an authored aggregate pack. It is not mirrored here. The authoritative source
-is [AADR at Harvard Dataverse](https://doi.org/10.7910/DVN/FFIDCW); its version,
-terms and appropriate access/privacy conditions govern acquisition and reuse.
-Selected aggregate derivatives and model assets have their own documented source
-chains and are released separately.
+The separate [AADR v14 reference mirror](https://github.com/ResearchForumOnline/research-datasets/releases/tag/aadr-v14-reference-2026.10.23)
+contains **6,010,695,146 bytes across seven unchanged official public files**.
+Every file matched the original v14 filename, size and MD5, and has a SHA-256
+verification record. These are published individual-level third-party scientific
+references, rather than custom author or customer DNA. The authoritative source
+is [AADR at Harvard Dataverse](https://doi.org/10.7910/DVN/FFIDCW), released under
+CC0 for these unrestricted files. This is a selected HO/compatibility-HO mirror,
+not the complete 25-file AADR release. Read the
+[reference card and notices](reference-mirrors/aadr-v14/DATASET_CARD.md).
+
+```console
+python tools/download_reference.py --list
+python tools/download_reference.py --destination /path/to/reference
+```
+
+The reference downloader verifies each part and the reconstructed original file.
+It refuses existing outputs. The approximately 4.03 GB HO genotype file is split
+across release assets to fit the per-asset limit; manual concatenation must follow
+manifest order. No private target-overlap caches or local analysis outputs are
+included. A public scientific source designation is not an anonymity warranty.
 
 Python environments are represented by dependency recipes rather than copies of
 an existing machine's installed environment. The observed Windows recipe in
@@ -92,4 +106,4 @@ inside each corresponding ZIP.
 | [ZERO original agent curriculum](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-agent-curriculum-v1.zip) | 0.03 MB | 165 original records across two curricula |
 | [ZERO original pilot dataset](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-pilot-20261009.zip) | 0.24 MB | 100 records; 94 groups; 60/20/20 split |
 
-Sizes use decimal MB. Exact byte lengths and SHA-256 hashes are in catalog.json. All nine packs total **212,515,646 uncompressed bytes** and **142,569,332 ZIP bytes**.
+Sizes use decimal MB. Exact byte lengths and SHA-256 hashes are in catalog.json. The nine packs total **212,515,646 uncompressed bytes** and **142,569,332 ZIP bytes**, in addition to the **6,010,695,146-byte** public AADR reference mirror above.

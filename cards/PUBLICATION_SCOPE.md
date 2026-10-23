@@ -12,6 +12,10 @@ Cards inside each ZIP explain provenance, schemas, licenses and use limits.
   source-commit licenses and required upstream notices.
 - Aggregate reference/model data, genomic marker definitions and corrected
   ancient-source aggregate frequencies for the stated GRCh37 build.
+- A separate, exact mirror of seven previously public AADR v14 HO/compatibility-HO
+  reference files, including individual-level reference genotypes and their public
+  metadata. Filename, size and MD5 match the official unrestricted CC0 release;
+  these are third-party scientific references, not private author/client DNA.
 - Explicitly synthetic software fixtures where their constructed origin was
   verified; these are not biological validation cohorts.
 - Selected categorical and numeric historical software benchmark measurements.
@@ -20,9 +24,9 @@ Cards inside each ZIP explain provenance, schemas, licenses and use limits.
 
 - Personal DNA, customer/client records, account databases, credentials, tokens,
   private keys, private reports, correspondence and private configuration.
-- Individual-level reference-genotype matrices and target-derived genotype
-  caches. Use the official AADR source linked in the main README when appropriate;
-  a third-party source license does not replace privacy considerations.
+- Private individual genotype files and target-derived genotype caches. The
+  unchanged official public AADR mirror has its own documented source and scope;
+  local additions, participant uploads and private reports are not included.
 - Installed virtual environments, operating-system files and runtime/application
   archives. Dependency recipes are metadata, not runnable installed environments.
 - Imported training records whose exact source license could not be established,

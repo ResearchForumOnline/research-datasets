@@ -1,0 +1,10 @@
+Selected unchanged AADR v66.p1 PUB reference mirror.
+Source: Swapan Mallick and David Reich, Harvard Dataverse14.0, June8,2026.
+Dataset: https://doi.org/10.7910/DVN/FFIDCW
+Data license: CC0-1.0, included in CC0-1.0.txt.
+Cite: Mallick etal2024, Scientific Data11:182,
+https://doi.org/10.1038/s41597-024-03031-7, and original component studies.
+No scientific data changes. Packaging/transport does not change the source rights.
+This includes individual-level public reference genotypes and published research
+identifiers; it is not a warranty of anonymity. No owner/client DNA or private
+cache/result/credential files are included. See DATASET_CARD.md and PROVENANCE.json.

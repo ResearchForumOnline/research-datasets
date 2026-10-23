@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "release_id": "aadr-v14-reference-2026.10.23",
+  "dataset": "Allen Ancient DNA Resource (AADR)",
+  "dataset_version": "Harvard Dataverse14.0 / v66.p1",
+  "dataset_release_time": "2026-06-08T20:36:49Z",
+  "dataset_doi": "10.7910/DVN/FFIDCW",
+  "source_url": "https://doi.org/10.7910/DVN/FFIDCW",
+  "source_metadata_api": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/FFIDCW",
+  "source_metadata_sha256": "6d42ccf6dca7826eb236937e9d4f8750fdd15808cf8dfad29c6c6a18b5f658ba",
+  "license": "CC0-1.0",
+  "metadata_terms": {
+    "termsOfUse": null,
+    "termsOfAccess": null,
+    "restrictions": null
+  },
+  "data_level": "Individual-level published research reference genotypes and source metadata; not private owner/client input",
+  "files": [
+    {
+      "filename": "v66.p1_compatibility_HO.aadr.patch.PUB.geno",
+      "panel": "compatibility_HO",
+      "bytes": 1909008156,
+      "md5": "880194e511ec97848d72c4778c307d9f",
+      "sha256": "27b3bf9eab1708284cbea5dc032dff32f0eab6be3f05dd8de90f167a6c00dcb8",
+      "official_datafile_id": 13994522,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994522",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_compatibility_HO.aadr.patch.PUB.ind",
+      "panel": "compatibility_HO",
+      "bytes": 1176253,
+      "md5": "a14985ffae6dd33a00f4fd5bfefe58c5",
+      "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e",
+      "official_datafile_id": 13994523,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994523",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_compatibility_HO.aadr.patch.PUB.snp",
+      "panel": "compatibility_HO",
+      "bytes": 17433675,
+      "md5": "900b317b81b249593b20b2fe15dcbf70",
+      "sha256": "74582cfb2cde3943dcb969a3e80a2cdb711d6f2635e95c3adddaaf3a31fe1bbd",
+      "official_datafile_id": 13994524,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994524",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_compatibility_HO.aadr.PUB.anno",
+      "panel": "compatibility_HO",
+      "bytes": 15465906,
+      "md5": "548b011b4adbcd46f0ff66b957c59c3f",
+      "sha256": "57f93730b0e408d2c29e0e3a1bd53b0c3c618fcbac22f498154de6335e5e415e",
+      "official_datafile_id": 13994525,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994525",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_HO.aadr.patch.PUB.geno",
+      "panel": "HO",
+      "bytes": 4029634650,
+      "md5": "9f9f0629f803835985bc38856e989995",
+      "sha256": "7af8c2f5cf0db612e39257e59f20aba87906de90c79f409771c3b3145a253ec3",
+      "official_datafile_id": 13994808,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994808",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_HO.aadr.patch.PUB.ind",
+      "panel": "HO",
+      "bytes": 1176253,
+      "md5": "a14985ffae6dd33a00f4fd5bfefe58c5",
+      "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e",
+      "official_datafile_id": 13994526,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994526",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    },
+    {
+      "filename": "v66.p1_HO.aadr.patch.PUB.snp",
+      "panel": "HO",
+      "bytes": 36800253,
+      "md5": "fbd2cfe09ec6bad794f7607768b57a3a",
+      "sha256": "c0d565ee9e6a6edf30c2063430ee4f828e5db45f26d4747fd76f19eee650a5de",
+      "official_datafile_id": 13994527,
+      "official_file_url": "https://dataverse.harvard.edu/api/access/datafile/13994527",
+      "official_restricted": false,
+      "verified_match_to_official_metadata": true
+    }
+  ],
+  "total_original_bytes": 6010695146,
+  "content_changes": "None. Any transport chunks must be reassembled exactly and checked against the original file SHA-256 and MD5.",
+  "planned_transport": {
+    "HO_genotype_original_bytes": 4029634650,
+    "HO_genotype_chunk_bytes": [
+      1600000000,
+      1600000000,
+      829634650
+    ],
+    "compatibility_HO_genotype_original_bytes": 1909008156,
+    "metadata_original_files": 5,
+    "metadata_original_bytes": 72052340
+  },
+  "privacy_boundary": "Official PUB reference identifiers and annotations are included; this is not a warranty of anonymity. No owner uploads, target-overlap caches, private results, credentials or client databases are included.",
+  "checksum_verification": "All7sourcefiles streamed through MD5 and SHA256 on2026-10-23. Exactfilename, filesize and MD5 match the saved official version14 metadata; no genotype interpretation performed.",
+  "publication_status": "Metadata prepared for a separate historical-reference mirror release; not proof of upload or deletion"
+}

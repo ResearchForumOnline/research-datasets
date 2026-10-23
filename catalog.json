@@ -139,6 +139,18 @@
       }
     }
   ],
-  "privacy_boundary": "Explicit reviewed assets only; private DNA, clients/accounts/keys, individual reference matrices and installed environments excluded.",
-  "evaluation_overlap": "AI packs overlap: 4,680 content/evaluation-support occurrences correspond to 2,577 unique normalized records. This includes 52 evaluation-support payloads; 4,628 primary dataset record occurrences remain before deduplication. Do not concatenate or treat mixtures as independent validation."
+  "privacy_boundary": "Explicit reviewed assets only. Private DNA, clients/accounts/keys, target-derived caches and installed environments are excluded. Separate individual-level reference files are byte-identical to the official unrestricted public AADR source.",
+  "evaluation_overlap": "AI packs overlap: 4,680 content/evaluation-support occurrences correspond to 2,577 unique normalized records. This includes 52 evaluation-support payloads; 4,628 primary dataset record occurrences remain before deduplication. Do not concatenate or treat mixtures as independent validation.",
+  "reference_mirrors": [
+    {
+      "id": "aadr-v14-public-reference",
+      "title": "Official AADR v14 HO and compatibility-HO selected mirror",
+      "license": "CC0-1.0",
+      "original_files": 7,
+      "original_bytes": 6010695146,
+      "manifest": "reference-mirrors/aadr-v14/manifest.json",
+      "card": "reference-mirrors/aadr-v14/DATASET_CARD.md",
+      "release_url": "https://github.com/ResearchForumOnline/research-datasets/releases/tag/aadr-v14-reference-2026.10.23"
+    }
+  ]
 }

@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "aadr-v14-public-reference",
+  "release": "aadr-v14-reference-2026.10.23",
+  "license": "CC0-1.0",
+  "source": "https://doi.org/10.7910/DVN/FFIDCW",
+  "source_version": 14,
+  "scope": "Seven exact unchanged official public HO/compatibility-HO files; not the complete 25-file AADR release. Includes published individual-level reference, not author/customer DNA or private analysis caches.",
+  "files": [
+    {
+      "name": "v66.p1_compatibility_HO.aadr.patch.PUB.geno",
+      "bytes": 1909008156,
+      "sha256": "27b3bf9eab1708284cbea5dc032dff32f0eab6be3f05dd8de90f167a6c00dcb8",
+      "upstream_md5": "880194e511ec97848d72c4778c307d9f",
+      "official_datafile_id": 13994522,
+      "parts": [
+        {
+          "name": "v66.p1_compatibility_HO.aadr.patch.PUB.geno",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_compatibility_HO.aadr.patch.PUB.geno",
+          "bytes": 1909008156,
+          "sha256": "27b3bf9eab1708284cbea5dc032dff32f0eab6be3f05dd8de90f167a6c00dcb8"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_compatibility_HO.aadr.patch.PUB.ind",
+      "bytes": 1176253,
+      "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e",
+      "upstream_md5": "a14985ffae6dd33a00f4fd5bfefe58c5",
+      "official_datafile_id": 13994523,
+      "parts": [
+        {
+          "name": "v66.p1_compatibility_HO.aadr.patch.PUB.ind",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_compatibility_HO.aadr.patch.PUB.ind",
+          "bytes": 1176253,
+          "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_compatibility_HO.aadr.patch.PUB.snp",
+      "bytes": 17433675,
+      "sha256": "74582cfb2cde3943dcb969a3e80a2cdb711d6f2635e95c3adddaaf3a31fe1bbd",
+      "upstream_md5": "900b317b81b249593b20b2fe15dcbf70",
+      "official_datafile_id": 13994524,
+      "parts": [
+        {
+          "name": "v66.p1_compatibility_HO.aadr.patch.PUB.snp",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_compatibility_HO.aadr.patch.PUB.snp",
+          "bytes": 17433675,
+          "sha256": "74582cfb2cde3943dcb969a3e80a2cdb711d6f2635e95c3adddaaf3a31fe1bbd"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_compatibility_HO.aadr.PUB.anno",
+      "bytes": 15465906,
+      "sha256": "57f93730b0e408d2c29e0e3a1bd53b0c3c618fcbac22f498154de6335e5e415e",
+      "upstream_md5": "548b011b4adbcd46f0ff66b957c59c3f",
+      "official_datafile_id": 13994525,
+      "parts": [
+        {
+          "name": "v66.p1_compatibility_HO.aadr.PUB.anno",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_compatibility_HO.aadr.PUB.anno",
+          "bytes": 15465906,
+          "sha256": "57f93730b0e408d2c29e0e3a1bd53b0c3c618fcbac22f498154de6335e5e415e"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_HO.aadr.patch.PUB.geno",
+      "bytes": 4029634650,
+      "sha256": "7af8c2f5cf0db612e39257e59f20aba87906de90c79f409771c3b3145a253ec3",
+      "upstream_md5": "9f9f0629f803835985bc38856e989995",
+      "official_datafile_id": 13994808,
+      "parts": [
+        {
+          "name": "v66.p1_HO.aadr.patch.PUB.geno.part-001",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_HO.aadr.patch.PUB.geno.part-001",
+          "bytes": 1600000000,
+          "sha256": "447d27089d03399e110776f0274a3b416530457638b341e9104891764fc8af24"
+        },
+        {
+          "name": "v66.p1_HO.aadr.patch.PUB.geno.part-002",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_HO.aadr.patch.PUB.geno.part-002",
+          "bytes": 1600000000,
+          "sha256": "a68ceb781a97a005189bc8f63ae0965dc80ed4589a803cfaaa7eb89447f56c18"
+        },
+        {
+          "name": "v66.p1_HO.aadr.patch.PUB.geno.part-003",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_HO.aadr.patch.PUB.geno.part-003",
+          "bytes": 829634650,
+          "sha256": "5a515f5adc466cd1a6bdad2073726a702c0e62471fe330a094573f12f9f02c9d"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_HO.aadr.patch.PUB.ind",
+      "bytes": 1176253,
+      "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e",
+      "upstream_md5": "a14985ffae6dd33a00f4fd5bfefe58c5",
+      "official_datafile_id": 13994526,
+      "parts": [
+        {
+          "name": "v66.p1_HO.aadr.patch.PUB.ind",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_HO.aadr.patch.PUB.ind",
+          "bytes": 1176253,
+          "sha256": "51f99bee3667b5c3a97b663cc12fd3e25486cf64049782657d99db347b65509e"
+        }
+      ]
+    },
+    {
+      "name": "v66.p1_HO.aadr.patch.PUB.snp",
+      "bytes": 36800253,
+      "sha256": "c0d565ee9e6a6edf30c2063430ee4f828e5db45f26d4747fd76f19eee650a5de",
+      "upstream_md5": "fbd2cfe09ec6bad794f7607768b57a3a",
+      "official_datafile_id": 13994527,
+      "parts": [
+        {
+          "name": "v66.p1_HO.aadr.patch.PUB.snp",
+          "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/aadr-v14-reference-2026.10.23/v66.p1_HO.aadr.patch.PUB.snp",
+          "bytes": 36800253,
+          "sha256": "c0d565ee9e6a6edf30c2063430ee4f828e5db45f26d4747fd76f19eee650a5de"
+        }
+      ]
+    }
+  ],
+  "total_original_bytes": 6010695146
+}

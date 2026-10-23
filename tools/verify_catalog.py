@@ -26,7 +26,30 @@ def main():
         assert 0 < asset['bytes'] < 2*1024**3
         assert re.fullmatch(r'[a-f0-9]{64}', asset['sha256'])
     assert identifiers
-    print('Validated', len(identifiers), 'pack metadata records; no network, extraction or execution')
+    for mirror in catalog.get('reference_mirrors', []):
+        rel=PurePosixPath(mirror['manifest'])
+        assert not rel.is_absolute() and '..' not in rel.parts
+        source=json.loads(ROOT.joinpath(*rel.parts).read_text(encoding='utf-8'))
+        assert source['schema_version']==1 and source['id']==mirror['id']
+        assert len(source['files'])==mirror['original_files']
+        assert sum(x['bytes'] for x in source['files'])==mirror['original_bytes']==source['total_original_bytes']
+        prefix='https://github.com/ResearchForumOnline/research-datasets/releases/download/'+source['release']+'/'
+        names=set();parts=set()
+        for file in source['files']:
+            assert file['name'] not in names and PurePosixPath(file['name']).name==file['name']
+            assert '/' not in file['name'] and '\\' not in file['name'] and ':' not in file['name']
+            names.add(file['name'])
+            assert re.fullmatch(r'[a-f0-9]{64}',file['sha256'])
+            assert re.fullmatch(r'[a-f0-9]{32}',file['upstream_md5'])
+            assert sum(p['bytes'] for p in file['parts'])==file['bytes']
+            for part in file['parts']:
+                assert part['name'] not in parts and PurePosixPath(part['name']).name==part['name']
+                assert '\\' not in part['name'] and ':' not in part['name']
+                parts.add(part['name'])
+                assert part['url']==prefix+part['name']
+                assert 0<part['bytes']<2*1024**3
+                assert re.fullmatch(r'[a-f0-9]{64}',part['sha256'])
+    print('Validated', len(identifiers), 'packs and',len(catalog.get('reference_mirrors',[])),'reference mirrors; no network, extraction or execution')
 
 if __name__ == '__main__':
     main()
