@@ -30,7 +30,10 @@ Each new release is assembled from explicit reviewed file lists. It excludes
 private personal/client DNA, target-overlap
 caches, private reports, customer/account databases, credentials, private
 correspondence, provider-restricted research and installed virtual environments.
-The original local collections are preserved.
+Private and unreleased local collections are preserved. At the owner's request,
+selected large published copies are removed locally only after a complete public
+restore and hash verification; local file-by-file receipts and recovery commands
+are retained.
 
 The separate [AADR v14 reference mirror](https://github.com/ResearchForumOnline/research-datasets/releases/tag/aadr-v14-reference-2026.10.23)
 contains **6,010,695,146 bytes across seven unchanged official public files**.
@@ -96,8 +99,10 @@ inside each corresponding ZIP.
 
 | Download | ZIP size | Contents |
 | --- | ---: | --- |
+| [Ancestry chip-site aggregate frequency database](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/ancestry-chip-sites-grch37-2026.05.10.zip) | 71.54 MB | 535,138 variant loci; 2,639,288 aggregate frequency rows; 609,112,064-byte SQLite delivered as exact gzip |
 | [ZeroThink ancient aggregate reference](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/ancient-origins-grch37-2026.09.05.zip) | 5.35 MB | 6 groups; 30,826 common loci; 184,956 aggregate frequency rows |
 | [ZeroThink GRCh37 composition assets](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/composition-grch37-2026.09.05.zip) | 98.90 MB | 345,907 markers; 21 reference groups; 16 projection dimensions |
+| [Genetic adaptation numeric simulation](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/genetic-adaptation-synthetic-simulation-v1.zip) | 7.06 MB | 150,000 fictional agent/environment simulation records; no human genotype data |
 | [Pinned GrafAnc aggregate reference](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/grafanc-reference-aggregate-b5e51c78.zip) | 28.22 MB | 282,424 variant rows; 26 population-frequency columns; upstream sentinels preserved |
 | [OpenZero original research curriculum](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/openzero-original-research-v1.zip) | 0.15 MB | 413 SFT; 120 preference; 39 frozen evaluation records |
 | [OpenZero reviewed licensed mixtures](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/openzero-reviewed-licensed-mixtures-20260726.zip) | 3.69 MB | 1,870 and 1,921 overlapping variant records |
@@ -106,4 +111,4 @@ inside each corresponding ZIP.
 | [ZERO original agent curriculum](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-agent-curriculum-v1.zip) | 0.03 MB | 165 original records across two curricula |
 | [ZERO original pilot dataset](https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/zero-original-pilot-20261009.zip) | 0.24 MB | 100 records; 94 groups; 60/20/20 split |
 
-Sizes use decimal MB. Exact byte lengths and SHA-256 hashes are in catalog.json. The nine packs total **212,515,646 uncompressed bytes** and **142,569,332 ZIP bytes**, in addition to the **6,010,695,146-byte** public AADR reference mirror above.
+Sizes use decimal MB. Exact byte lengths and SHA-256 hashes are in catalog.json. The 11 packs total **339,454,271 ZIP-member bytes** and **221,165,428 ZIP bytes**, in addition to the **6,010,695,146-byte** public AADR reference mirror above. A compressed database member has its separate expanded SQLite size and hash in its card.

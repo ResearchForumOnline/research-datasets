@@ -41,7 +41,10 @@ Cards inside each ZIP explain provenance, schemas, licenses and use limits.
   regional/archaic/population pack candidates were not present in the audited
   source collection. Metadata naming them is not evidence of an uploaded pack.
 
-Original local files are preserved. This catalog does not claim every file on the
+Private and unreleased original files are preserved. Selected large published
+copies are removed locally at the owner's request only after complete public
+restore and hash verification; local deletion receipts and recovery commands are
+retained. This catalog does not claim every file on the
 author's computers has been published or reviewed. Scientific interpretation,
 population coverage, consumer calibration and independent model evaluation are
 separate from verifying bytes, source attribution and format integrity.

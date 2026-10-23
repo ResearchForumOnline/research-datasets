@@ -4,6 +4,21 @@
   "publication_date": "2026-10-23",
   "packs": [
     {
+      "id": "ancestry-chip-sites-grch37-2026.05.10",
+      "title": "Ancestry chip-site aggregate frequency database",
+      "license": "CC0-1.0 own compilation/docs; original 1000 Genomes reuse terms retained",
+      "contents": "535,138 variant loci; 2,639,288 aggregate frequency rows; 609,112,064-byte SQLite delivered as exact gzip",
+      "card": "cards/ancestry-chip-sites-grch37-2026.05.10.md",
+      "file_count": 7,
+      "uncompressed_bytes": 71549126,
+      "asset": {
+        "name": "ancestry-chip-sites-grch37-2026.05.10.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/ancestry-chip-sites-grch37-2026.05.10.zip",
+        "bytes": 71538887,
+        "sha256": "c443109355de2c6227e901496018e3c06c31cca2fd2047c5882b8315b852693b"
+      }
+    },
+    {
       "id": "ancient-origins-grch37-2026.09.05",
       "title": "ZeroThink ancient aggregate reference",
       "license": "CC0-1.0 source data",
@@ -31,6 +46,21 @@
         "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/composition-grch37-2026.09.05.zip",
         "bytes": 98898889,
         "sha256": "a72716dd83b7f8a100f4ea15245e5bdcf0b89b5ce73fa4d5f8d689a2563403de"
+      }
+    },
+    {
+      "id": "genetic-adaptation-synthetic-simulation-v1",
+      "title": "Genetic adaptation numeric simulation",
+      "license": "MIT; existing public source terms retained",
+      "contents": "150,000 fictional agent/environment simulation records; no human genotype data",
+      "card": "cards/genetic-adaptation-synthetic-simulation-v1.md",
+      "file_count": 12,
+      "uncompressed_bytes": 55389499,
+      "asset": {
+        "name": "genetic-adaptation-synthetic-simulation-v1.zip",
+        "url": "https://github.com/ResearchForumOnline/research-datasets/releases/download/datasets-2026.10.23/genetic-adaptation-synthetic-simulation-v1.zip",
+        "bytes": 7057209,
+        "sha256": "fe1efd18a6665295ddc028c30c4b2e7a3a0878ec6f5bb0ff2624c03378e87558"
       }
     },
     {
@@ -139,8 +169,8 @@
       }
     }
   ],
-  "privacy_boundary": "Explicit reviewed assets only. Private DNA, clients/accounts/keys, target-derived caches and installed environments are excluded. Separate individual-level reference files are byte-identical to the official unrestricted public AADR source.",
-  "evaluation_overlap": "AI packs overlap: 4,680 content/evaluation-support occurrences correspond to 2,577 unique normalized records. This includes 52 evaluation-support payloads; 4,628 primary dataset record occurrences remain before deduplication. Do not concatenate or treat mixtures as independent validation.",
+  "privacy_boundary": "Explicit reviewed assets only. Private DNA, clients/accounts/keys, target-derived caches and installed environments excluded. Separate individual-level reference mirror files are unchanged official public AADR source.",
+  "evaluation_overlap": "The four AI curriculum/mixture packs overlap: 4,680 content/evaluation-support occurrences correspond to 2,577 unique normalized records. This includes 52 evaluation-support payloads; 4,628 primary dataset record occurrences remain before deduplication. Do not concatenate or treat mixtures as independent validation.",
   "reference_mirrors": [
     {
       "id": "aadr-v14-public-reference",
