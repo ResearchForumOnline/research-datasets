@@ -19,6 +19,8 @@ Cards inside each ZIP explain provenance, schemas, licenses and use limits.
 - Explicitly synthetic software fixtures where their constructed origin was
   verified; these are not biological validation cohorts.
 - Selected categorical and numeric historical software benchmark measurements.
+- A separately reviewed MIT-licensed numeric simulation with 150,000 fictional
+  agent/environment episodes; it contains no human genotype data.
 
 ## Excluded or held
 

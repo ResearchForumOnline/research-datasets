@@ -53,16 +53,29 @@ Normalization compares Unicode word tokens from user and assistant turns, exclud
 
 Both historical mixtures already incorporated all 413 July SFT records, including the earlier 52 validation records. Those 52 records cannot independently validate a model trained on a mixture. Do not concatenate all packages blindly, advertise the sum as unique examples, or use one formatting variant to evaluate the other. Keep frozen evaluations, held-out answers and continuation probes out of training. No inference, copying-performance score or model-improvement result was produced by this publication review.
 
+## Reviewed numeric simulation mirror
+
+The [genetic-adaptation simulation pack](cards/genetic-adaptation-synthetic-simulation-v1.md)
+contains the unchanged 55,368,388-byte JSON with **150,000 fictional agent/environment
+episodes**. A full schema/type census, duplicate check and privacy-pattern review
+were completed. Its SHA-256 matches the existing public source, whose MIT terms
+and attribution are retained. A standalone validator is included. The historical
+50,000-record card describes a different CSV classification view; it is not the
+JSON record count. This numeric simulation is separate from the four curriculum
+and mixture packages and their conversation-overlap figures above. It contains no
+human genotype data. Generator/seed recovery and scientific/model validity remain
+outside the evidence established by the structural checks.
+
 ## Previously public legacy datasets
 
-The following repositories were verified in the public Hugging Face account listing on 23 October 2026. They were already public; they are not newly privacy-reviewed releases or mirrors in this GitHub catalog:
+The following repositories were verified in the public Hugging Face account listing on 23 October 2026. They were already public. The specifically reviewed numeric JSON above is mirrored here; the remaining upstream artifacts are not newly privacy-cleared by this catalog:
 
 | Existing public dataset | Verified public artifact metadata |
 | --- | --- |
 | [shafire/SpectraMind](https://huggingface.co/datasets/shafire/SpectraMind) | Ten CSV files, approximately 132 MB total |
 | [shafire/TalkToAiQ](https://huggingface.co/datasets/shafire/TalkToAiQ) | Multiple CSVs, including a 59,615,085-byte reflection file |
 | [shafire/Spectra8](https://huggingface.co/datasets/shafire/Spectra8) | 251,565-byte CSV |
-| [shafire/Unified_Genetic_MultiDimensional_Framework](https://huggingface.co/datasets/shafire/Unified_Genetic_MultiDimensional_Framework) | Multiple artifacts, including a 55,368,388-byte JSON and a 6,908,646-byte ZIP |
+| [shafire/Unified_Genetic_MultiDimensional_Framework](https://huggingface.co/datasets/shafire/Unified_Genetic_MultiDimensional_Framework) | The 55,368,388-byte numeric simulation JSON is now reviewed and mirrored; other artifacts retain their separate upstream status |
 
 Metadata and file-tree verification do not establish full privacy clearance, source rights, factual accuracy, training suitability or biological validity of those existing contents. Read their own source and license records before reuse.
 
